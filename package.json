@@ -1,0 +1,22 @@
+{
+  "name": "minecraft-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node minecraft.js",
+    "download-server": "curl https://launcher.mojang.com/v1/objects/bb2b6b1aefcd70dfd1892149ac3a215f6c636b07/server.jar --output minecraft_server2.jar"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  }
+}

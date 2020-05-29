@@ -1,0 +1,13 @@
+node_modules
+
+# Minecraft Files
+/logs
+*.jar
+banned*.json
+ops.json
+server*.png
+server.properties
+usercache.json
+whitelist.json
+eula.txt
+hs*.log
